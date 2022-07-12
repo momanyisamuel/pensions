@@ -31,7 +31,7 @@ function Home() {
         <GridRow className=''>
             <GridCol setWidth="two-thirds">
                 <div className="welcome p-12">
-                    <h1>Welcome</h1>
+                    <h1 className="text-2xl font-normal mb-2">Welcome</h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
                     <p>We use cookies to make our website simpler.</p>
                     <SearchBox>
@@ -42,18 +42,18 @@ function Home() {
             </GridCol>
             <GridCol setWidth="one-third" className='border-l'>
                 <div className="links p-12">
-                    <h1>Popular links</h1>
+                    <h1 className="text-2xl font-normal mb-2">Popular links</h1>
                     <ul className='linkList'> 
                         <li>
-                            <Link href="/">Apply for your free</Link>
+                            <a href="/">Apply for your free</a>
                         </li>
-                        <li><a href=""></a>Access your Support Fund account</li>
-                        <li><a href=""></a>Buy a prescription prepayment certificate</li>
-                        <li><a href=""></a>Compass</li>
-                        <li><a href=""></a>Pay or challenge your penalty charge notice</li>
-                        <li><a href=""></a>Access ePACT2</li>
-                        <li><a href=""></a>Work for us</li>
-                        <li><a href=""></a>Check if you're eligible for help with charges</li>
+                        <li><a href="/"></a>Access your Support Fund account</li>
+                        <li><a href="/"></a>Buy a prescription prepayment certificate</li>
+                        <li><a href="/"></a>Compass</li>
+                        <li><a href="/"></a>Pay or challenge your penalty charge notice</li>
+                        <li><a href="/"></a>Access ePACT2</li>
+                        <li><a href="/"></a>Work for us</li>
+                        <li><a href="/"></a>Check if you're eligible for help with charges</li>
                     </ul>
                 </div>
             </GridCol>

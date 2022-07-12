@@ -7,7 +7,7 @@ function Footer() {
       <footer className="footer">
         <div className="footerWrap">
           <div className="container">
-            <div className="w-4/5 m-0 mx-auto footerPrimaryRow footerPrimary">
+            <div className="w-4/5 m-0 mx-auto flex justify-between mb-48 footerPrimary">
               <div className="headerSupporting">
                 <nav>
                   <ul className="primaryFooterNav">
