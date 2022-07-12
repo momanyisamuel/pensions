@@ -1,0 +1,59 @@
+.footer {
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+.footerWrap {
+    padding: 5rem 1.5rem;
+    overflow: hidden;
+}
+.container {
+    max-width: 114rem;
+    margin: 0 auto;
+    position: relative;
+}
+.footerPrimaryRow {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 11rem;
+}
+
+.primaryFooterNav {
+    margin: 0rem -2rem;
+    vertical-align: bottom;
+    list-style: none;
+    padding: 0;
+}
+.primaryFooterNavItem {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75;
+    padding: 0rem 2rem;
+    margin: 1rem 0rem 0rem;
+    display: inline-block;
+    border-left: 1px solid #e0e0e0;
+}
+.primaryFooterNavItem:first-child{
+    border-left: none;
+}
+.footerSecondary {
+    position: relative;
+}
+
+.footerSecondary::after {
+    content: '';
+    position: absolute;
+    top: -125px;
+    left: -24px;
+    width: 120%;
+    height: 325px;
+    z-index: -1;
+    background-image: url("../../../public/img/footerBanner_corporate.png");
+    background-position: 30% center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

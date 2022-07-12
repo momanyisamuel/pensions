@@ -1,0 +1,27 @@
+h1 {
+    font-size: 2.6rem;
+font-weight: 400;
+line-height: 1.4;
+margin: 0rem 0rem 1.4rem;
+color: #005eb8;
+}
+.welcome p {
+    font-weight: 400;
+    line-height: 1.75;
+    margin-bottom: 2rem;
+}
+.linkList li {
+    text-decoration: underline;
+}
+.colorBar {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    background: linear-gradient(90deg,#003087 0,#003087 55.625%,#0072ce 55.625%,#0072ce 71.25%,#fae100 71.25%,#fae100 86.875%,#fef9cc 86.875%,#fef9cc 100%);
+}
+
+.coverimg {
+    background-size: cover;
+}
